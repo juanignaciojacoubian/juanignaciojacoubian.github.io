@@ -1,14 +1,10 @@
 # Sitio web de Juan Ignacio Jacoubian
 
-Esta carpeta contiene una versión preliminar de tu web académica. El contenido se tomó de tu sitio público de Google Sites y se puede modificar antes de publicarla.
+Esta carpeta contiene el código de tu web académica, publicada en [juanignaciojacoubian.github.io](https://juanignaciojacoubian.github.io/). El contenido inicial se tomó de tu sitio público de Google Sites y se puede seguir editando.
 
-## Publicar primero en GitHub Pages
+## Actualizar la web en GitHub Pages
 
-1. Entra en tu cuenta `juanignaciojacoubian` de GitHub.
-2. Crea un repositorio **público** llamado exactamente `juanignaciojacoubian.github.io`.
-3. Sube todos los archivos de esta carpeta al nivel principal del repositorio. `index.html`, `styles.css`, `portrait.jpg` y `favicon.svg` deben quedar juntos en la raíz.
-4. En el repositorio, abre **Settings → Pages**. En **Build and deployment**, elige **Deploy from a branch**, rama `main`, carpeta `/(root)`, y guarda.
-5. La dirección de prueba será `https://juanignaciojacoubian.github.io/`. La publicación puede tardar unos minutos.
+Los cambios en la rama `main` del [repositorio](https://github.com/juanignaciojacoubian/juanignaciojacoubian.github.io) se publican automáticamente. `index.html`, `styles.css`, `portrait.jpg` y `favicon.svg` deben quedar juntos en la raíz del repositorio. La publicación puede tardar unos minutos.
 
 ## Conectar el dominio más adelante
 
