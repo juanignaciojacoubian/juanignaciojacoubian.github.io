@@ -8,6 +8,7 @@
   <title>Juan Ignacio Jacoubian | Economics</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <script src="analytics.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -117,7 +118,16 @@
 
     <section class="contact-section section-pad" id="contact" aria-labelledby="contact-title"><div class="wrap contact-inner"><div><p class="eyebrow">Get in touch</p><h2 id="contact-title">Contact</h2><p>Boston University · Department of Economics<br>270 Bay State Road #445<br>Boston, MA 02215</p></div><div class="contact-links"><a href="mailto:jjacoubi@bu.edu">jjacoubi@bu.edu ↗</a><a href="https://scholar.google.com/citations?user=OK84RfUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><a href="https://www.dropbox.com/scl/fi/tv3nqqmebe2hz1r2w908m/Jacoubian_CV.pdf?rlkey=9dcqigrnf57n4l6firhxx303y&st=umcvk0f8&dl=0" target="_blank" rel="noopener noreferrer">Curriculum Vitae ↗</a></div></div></section>
   </main>
-  <footer><div class="wrap footer-inner"><span>© <span id="year">2026</span> Juan Ignacio Jacoubian</span><a href="#top">Back to top ↑</a></div></footer>
+  <footer><div class="wrap footer-inner"><span>© <span id="year">2026</span> Juan Ignacio Jacoubian</span><div class="footer-actions"><button type="button" id="analytics-settings">Privacy settings</button><a href="#top">Back to top ↑</a></div></div></footer>
+  <section class="analytics-consent" id="analytics-consent" aria-label="Analytics preferences" hidden>
+    <div class="analytics-consent-inner wrap">
+      <p>This site uses Google Analytics to measure visits and approximate visitor locations. It only runs if you accept. <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses data</a>.</p>
+      <div class="analytics-consent-actions">
+        <button type="button" data-analytics-choice="declined">Decline</button>
+        <button type="button" data-analytics-choice="accepted">Accept</button>
+      </div>
+    </div>
+  </section>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
