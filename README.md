@@ -12,3 +12,5 @@ Los cambios en la rama `main` del [repositorio](https://github.com/juanignacioja
 - Colores, tipografía y tamaños: `styles.css`.
 - Fotografía: `portrait.jpg`.
 - PDF: carpeta `pdf/`. Para actualizar un documento, sustituye el archivo con el mismo nombre y publica el cambio en `main`; los enlaces de `index.html` seguirán funcionando.
+
+La ficha del JMP está en `pdf/Jacoubian_JMP.html`. Si cambian el título, el resumen o la fecha del PDF, actualiza también esa ficha, sus metadatos `citation_*`, el resumen de `index.html` y las fechas pertinentes de `sitemap.xml`.
